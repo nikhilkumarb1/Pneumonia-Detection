@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<| HEAD
 """
 Pneumonia Detection -- Streamlit Frontend
 Sends chest X-ray images to the FastAPI backend and visualizes results.
@@ -171,7 +171,7 @@ if st.sidebar.button("Check API Status"):
             st.sidebar.error("API not responding")
 
     except:
-=======
+
 """
 Pneumonia Detection -- Streamlit Frontend
 Sends chest X-ray images to the FastAPI backend and visualizes results.
@@ -343,5 +343,5 @@ if st.sidebar.button("Check API Status"):
             st.sidebar.error("API not responding")
 
     except:
->>>>>>> 316dc2f3823bc234a4b4057fc352b4850008e055
+
         st.sidebar.error("Backend not running")
